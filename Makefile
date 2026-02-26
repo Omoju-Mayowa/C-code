@@ -22,7 +22,12 @@ $(BUILD_DIR)/%: %.c | $(BUILD_DIR)
 # Example:
 # make run PROGRAM=src/pizza
 run: all
-	./$(BUILD_DIR)/$(PROGRAM)
+	@echo
+	@echo "Executing: $(PROGRAM)"
+	@echo "-----------------------------"
+	@echo
+	@./$(BUILD_DIR)/$(PROGRAM)
+	@echo
 
 clean:
 	rm -rf $(BUILD_DIR)

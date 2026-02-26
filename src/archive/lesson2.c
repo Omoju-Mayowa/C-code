@@ -33,22 +33,22 @@
     }
 
 int main() {
-    // int num1 = 1;
-    // int num2= 10;
-    // int num3 = 100;
+    int num1 = 1;
+    int num2= 10;
+    int num3 = 100;
 
-    // printf("%+d\n", num1);
-    // printf("%+d\n", num2);
-    // printf("%+d\n", num3);
+    printf("%+d\n", num1);
+    printf("%+d\n", num2);
+    printf("%+d\n", num3);
 
 
-    // float price1 = 19.99;
-    // float price2 = 5.52;
-    // float price3 = -12.78;
+    float price1 = 19.99;
+    float price2 = 5.52;
+    float price3 = -12.78;
 
-    // printf("%+7.2f\n", price1);
-    // printf("%+7.2f\n", price2);
-    // printf("%+7.2f\n", price3);
+    printf("%+7.2f\n", price1);
+    printf("%+7.2f\n", price2);
+    printf("%+7.2f\n", price3);
 
 
     // int x =2;
@@ -59,29 +59,33 @@ int main() {
     float y = 22;
     float z = 0;
 
+
+    // Use any operation of your choice on x and y and assign the result to z
+
     // z = x + y;
     // z = x - y;
     // z = x * y;
     z = x / y;
 
     // printf("%d", z);
-    printf("%f", z);
+    printf("%f\n", z);
 
     int i = 0;
-    // do
-    // {
-    //     printf("Hii\n");
-    //     i++;
-    //     /* code */
-    // } while (i < 10);
+    int j = 0;
+    do
+    {
+        printf("Do While Loop: Hii\n");
+        i++;
+        /* code */
+    } while (i < 10);
     
 
-    // while (i<5)
-    // {
-    //     /* code */
-    //     printf("Hi\n   ");
-    //     i++;
-    // }
+    while (j < 5)
+    {
+        /* code */
+        printf("While loop: Hi\n");
+        j++;
+    }
     
 
     // Adds two numbers and prints the result
