@@ -105,3 +105,10 @@ The command is:
 ```sh
     make clean
 ```
+
+
+## Final Words
+Well the code is completely free and I 100% give you go-ahead for re-use if you would like to.
+It is for educational and experimental purposes also.
+
+**Remember, The only thing stopping you from growing is you**
