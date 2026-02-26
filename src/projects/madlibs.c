@@ -3,6 +3,8 @@
 
 
 
+// This is a simple Mad Libs game that prompts the user to enter various parts of speech (adjectives, nouns, verbs) and then constructs a story using those inputs. The program uses fgets to read the user input, which allows for spaces in the input. After reading each input, it removes the newline character that fgets adds at the end of the string. Finally, it prints out a story using the collected inputs.
+
 int main() {
 
     char noun[50];

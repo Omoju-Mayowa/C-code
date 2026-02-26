@@ -85,7 +85,12 @@
 
 int main () {
     int x = 5;
+    int a = x++;
+    int b = ++x;
+    int y = a + b;
 
-    printf("%d", x++ + ++x);
+
+    // A postfix increment (x++) returns the value of x before incrementing, while a prefix increment (++x) returns the value of x after incrementing. In this case, a will be assigned the value of 5 (the original value of x), and b will be assigned the value of 7 (the value of x after it has been incremented twice). Therefore, y will be equal to 12 (5 + 7).
+    printf("%d", y);
 
 }

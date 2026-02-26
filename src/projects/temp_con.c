@@ -2,6 +2,13 @@
 #include <ctype.h>
 
 
+
+/*
+A simple temperature conversion program that allows the user to convert between Celsius and Fahrenheit. 
+The program prompts the user to choose the type of conversion they want to perform (Celsius to Fahrenheit or Fahrenheit to Celsius) and then asks for the temperature value. 
+It uses the appropriate formula to perform the conversion and prints the result in a formatted manner. 
+The program also handles invalid input by prompting the user to enter a valid choice if they select an option other than 'C' or 'F'.
+*/
 int main() { 
     char choice = '\0';
     float celsius = 0.00;

@@ -54,3 +54,54 @@ If it helps you, great.
 If it motivates you to start your own learning repo, even better.
  
 Let’s build.
+
+---
+
+## Project Directory
+
+```
+c_projects/
+├── Makefile
+├── README.md
+└── src/
+    ├── archive/ (Code I'm not proud of, PS: has a lot of syntax errors, some don't tho)
+    ├── arrays/ (Arrays and Strings)
+    ├── basics/ (Variables, operators, simple programs)
+    ├── contol_flow/ (if, swtich, loops)
+    ├── functions/ (functiom practice)
+    ├── input_output/ (prrintf, scanf, loops)
+    ├── projects/ (mini projects of mine)
+    ├── sandbox/ (Experimental grounds for Unstable Code🙃)
+    └── structs/ (structs and enums)
+```
+
+---
+## How to run code (Using make)
+By normal means you can use GCC or coderunner but I added make so it gets easier for you.
+
+- #### To build/compile everything
+```sh 
+    make
+```
+
+- #### To Run a specific program
+Lets say you wanna run pizza (I stored that in projects btw).
+
+Meaning we have a path of `src/projects/pizza.c`
+
+The ideal command is 
+```sh 
+    make run PROGRAM=src/proects/pizza
+```
+
+We don't add the .c(extension) cause the Makefile is built to run without the extension
+
+> Important Note: Makefile stores everything in a build directory, it also makes one if it doesn't exist but considering repo size and uploading a build from my machine won't benefit you I added the build directory to my .gitignore file. You can build it yourself.
+
+- #### Clean Builds
+All the builds will take a questionable amount of space so I thought "Why not make a command to clean the builds?" and I did.
+The command is:
+
+```sh
+    make clean
+```

@@ -2,6 +2,11 @@
 #include <string.h>
 
 
+/* This is a simple shopping cart program that prompts the user to enter an item, its price, and the quantity they want to purchase. 
+It then calculates the total cost and prints it out. The program uses fgets to read the item name (which can contain spaces) and scanf to read the price and quantity.
+After reading the item name, it removes the newline character that fgets adds at the end of the string.
+Finally, it prints out the total cost in a formatted manner.
+*/
 int main() {
 
     // Shopping cart program

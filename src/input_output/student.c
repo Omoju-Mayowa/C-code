@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// Input your age, name, gpa, and grade, and then print them out. Use scanf to read the age, gpa, and grade, and use fgets to read the name (since it can contain spaces). Make sure to handle the newline character left in the input buffer after reading the grade before using fgets to read the name.
 int main() {
     int age = 0;
     char name[30];

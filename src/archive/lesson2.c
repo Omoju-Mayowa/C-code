@@ -12,12 +12,14 @@
 //     return 0;
 // }
 
+// An addition function that takes two integers as parameters and returns their sum
    int add(int a, int b) {
         int c = a + b;
         return c;
     }
 
 
+// A factorial function that takes an integer n as a parameter and returns the factorial of n. The factorial of n is the product of all positive integers from 1 to n. For example, the factorial of 5 is 1 * 2 * 3 * 4 * 5 = 120.
     int factorial(int n) {
         int i;
         int result = 1;
@@ -82,9 +84,11 @@ int main() {
     // }
     
 
+    // Adds two numbers and prints the result
     int result2 = add(2, 3);
     printf("Result: %d\n", result2);
 
+    // Performs factorial of 6 and prints the result
     int result = factorial(6);
     printf("Factorial: %d\n", result);
 
