@@ -1,2 +1,14 @@
 /build
 .vscode/
+.DS_Store
+*.o
+*.out
+*.exe
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.class
+*.jar
+*.pyc
